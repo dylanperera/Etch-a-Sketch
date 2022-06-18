@@ -1,0 +1,121 @@
+body {
+    background-color: #78CCCB;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+    
+}
+
+.frame {
+    display: flex;
+    flex-direction: column;
+    border: 20px solid #FF5E5B;
+    border-right-width: 40px;
+    border-left-width: 40px;
+    border-radius: 10px;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0px 0px 20px black;
+}
+
+.header {
+    color: white;
+    font-size: 36px;
+    color: gold;
+    font-family:'Cedarville Cursive';
+    font-weight: 900;
+    text-align: center;
+    background-color: #FF5E5B;
+    align-self:stretch;
+}
+
+ul {
+    display: flex;
+    flex-direction: column;
+    list-style-type: none;
+    padding: 0px;
+    margin: 0px;
+    border: 20px solid #FF5E5B;
+    background-color: #FF5E5B;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 16px;
+}
+
+li {
+    margin: 0;
+    text-align:center;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.options {
+    display: flex;
+    background-color: #FF5E5B;
+    align-self: stretch;
+    justify-content: center;
+}
+
+.options-1, .options-2, .options-3, .options-4{
+    margin-top: auto;
+    align-self: stretch;
+    align-items: center;
+}
+
+
+button {
+    width: 100px;
+    height: 40px;
+    box-shadow: 1px 4px 4px black;
+    background-color: gold;
+    border-color: black;
+    border-radius: 8px;
+    color: black;
+    font-family: 'Mouse Memoirs';
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+button:hover {
+    background-color: lightgrey;
+}
+
+.row {
+    display: flex;
+    padding: 0px;
+    margin: 0;
+}
+
+.column {
+    flex: 1;
+    border:  1px solid lightgrey;
+    background-color: white;
+    padding: 0px;
+    margin: 0;
+    user-select: none;
+}
+
+
+.sketch-pad {
+    display:inline-block;
+    justify-content: center;
+    align-self: center;
+    padding: 0px;
+    width: 629px;
+    height: 629px;
+    margin: 0;
+}
+
+.slider {
+    display: flex;
+    padding-top: 20px;
+    padding-right: 10px;
+    justify-content: center;
+    align-self: stretch;
+    background-color: #FF5E5B;
+    font-family: 'Mouse Memoirs';
+    font-size: 24px;
+}
