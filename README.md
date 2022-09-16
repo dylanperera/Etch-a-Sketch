@@ -5,4 +5,4 @@ Created with HTML, CSS and JS.
 
 
 
-[Live Demo](dylanperera.github.io/Etch-a-Sketch) :point_left:
+[Live Demo](https://dylanperera.github.io/Etch-a-Sketch/) :point_left:
